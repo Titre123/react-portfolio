@@ -205,3 +205,13 @@
     margin-right: 10px;
     text-decoration: none;
 }
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+.nav a {
+    text-decoration: none;
+}

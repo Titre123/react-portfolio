@@ -1,156 +1,119 @@
-const logotext = "JOHN";
+import challenge from './assets/images/challenge.png';
+import tracker from './assets/images/Ip tracker.jpg';
+
+const logotext = "TAIWO";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Taiwo Ola-Balogun",
+    description: "I’m Taiwo Ola-Balogun, a Full stack devloper",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Taiwo Ola-Balogun",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "I am a Fullstack Developer",
+        second: "I am a Software Engineer",
+        third: "I am a Mobile App Developer",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "Taiwo Ola-Balogun is a multifaceted individual, currently pursuing a medical degree at the College of Medicine, University of Lagos. Alongside his medical studies, he has ventured into the field of software engineering, successfully completing a rigorous 13-month ALX Africa Software Engineering Program.",
+    your_img_url: "https://ddgimgs-f43e.kxcdn.com/2147107/ymctd0_a04173f4cc9734d8087aeceac8444055f13b845c.jpg",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "About myself",
+    aboutme: "I am a multifaceted individual, currently pursuing a medical degree at the College of Medicine, University of Lagos. Alongside my medical studies, I have ventured into the field of software engineering, successfully completing a rigorous 13-month ALX Africa Software Engineering Program.With a passion for both medicine and technology, I showcase a unique blend of skills and interests. My dedication to my medical education demonstrates my commitment to improving healthcare and making a positive impact on people's lives. Simultaneously, my foray into software engineering reveals my innovative thinking and desire to contribute to the technological advancements that shape our world. As a medical student, I am equipped with a deep understanding of human health and wellness, complemented by my expertise in software engineering. This diverse skill set allows me to approach healthcare challenges with a fresh perspective, utilizing technology to enhance patient care, medical research, and overall healthcare systems.My journey as a medical student and software engineer is a testament to my determination, adaptability, and intellectual curiosity. I am poised to make significant contributions to both fields, leveraging my unique background to bridge the gap between medicine and technology, ultimately improving the quality of healthcare delivery and shaping the future of healthcare innovation.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "BackEnd Developer",
+        where: "Kreatif Mxnds",
+        date: "2023",
     },
 ];
 
 const skills = [{
         name: "Python",
-        value: 90,
-    },
-    {
-        name: "Djano",
-        value: 85,
-    },
-    {
-        name: "Javascript",
         value: 80,
     },
     {
+        name: "Flask",
+        value: 90,
+    },
+    {
+        name: "Javascript",
+        value: 75,
+    },
+    {
         name: "React",
-        value: 60,
+        value: 70,
     },
     {
         name: "Jquery",
+        value: 75,
+    },
+    {
+        name: "Typescipt",
+        value: 90,
+    },
+    {
+        name: "Bash",
+        value: 85,
+    },
+    {
+        name: "C",
+        value: 65,
+    },
+    {
+        name: "Node JS",
+        value: 80,
+    },
+    {
+        name: "React Native",
+        value: 65,
+    },
+    {
+        name: "Express",
         value: 85,
     },
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Mobile App Development",
+        description: "As a software engineer, I specialize in mobile app development using React Native. React Native is a popular framework that allows me to build cross-platform mobile applications using JavaScript. It enables me to write code once and deploy it on both iOS and Android platforms, saving time and effort.ith React Native, I can create native-like user interfaces and leverage platform-specific features and APIs. I use React Native's component-based architecture to develop reusable UI components, resulting in a consistent and efficient development process. The framework provides a wide range of pre-built components and libraries, making it easier to implement various functionalities in the app.",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Web Application Development",
+        description: "As a software engineer, I specialize in web app development using React. React is a popular JavaScript library that allows me to build dynamic and interactive user interfaces for web applications.With React, I can break down the user interface into reusable components, making the development process more modular and efficient. Each component manages its own state and updates the user interface when changes occur, resulting in a smooth and responsive user experience.",
     },
 ];
 
-const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+const dataportfolio = [
+    {
+        img: tracker,
+        description: "An Ip tracker to track Ip of domains across the globe and their Location on map",
+        link: "https://ip-address-tracker-master-ten-gules.vercel.app/",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: challenge,
+        description: "An application that allow programmers to challenge themselves",
+        link: "https://challengedeveloper.netlify.app/",
     },
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "taiwotriumphant@gmail.com",
+    YOUR_FONE: "+2349015314257",
+    description: "Seamless communication made easy. Connect with me through a user-friendly contact form. Reach out for inquiries, collaborations, or questions. I'm just a message away. Efficient and secure contact form for prompt responses and professional communication.",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "Portfolio",
+    YOUR_TEMPLATE_ID: "template_p5aq0g9",
+    YOUR_USER_ID: "zhtvYM7bstoZ-u3XZ",
 };
 
 const socialprofils = {
-    github: "https://github.com",
+    github: "https://github.com/Titre123",
     facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    linkedin: "https://www.linkedin.com/in/taiwo-triumphant-codex/",
+    twitter: "https://twitter.com/DumbDevs",
 };
 export {
     meta,

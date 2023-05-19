@@ -94,3 +94,7 @@ code {
 .color_sec {
     color: var(--secondary-color);
 }
+
+.container {
+    margin: 0 auto;
+}
