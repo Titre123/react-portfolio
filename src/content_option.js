@@ -1,5 +1,6 @@
 import challenge from './assets/images/challenge.png';
 import tracker from './assets/images/Ip tracker.jpg';
+import sociaMedia from './assets/images/social media.jpg';
 
 const logotext = "TAIWO";
 const meta = {
@@ -96,6 +97,11 @@ const dataportfolio = [
         description: "An application that allow programmers to challenge themselves",
         link: "https://challengedeveloper.netlify.app/",
     },
+    {
+        img: sociaMedia,
+        description: "Social Media management dashboard",
+        link: "https://github.com/Titre123/social-media-dashboard",
+    },
 ];
 
 const contactConfig = {
@@ -105,7 +111,7 @@ const contactConfig = {
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "Portfolio",
-    YOUR_TEMPLATE_ID: "template_p5aq0g9",
+    YOUR_TEMPLATE_ID: "template_1k3asth",
     YOUR_USER_ID: "zhtvYM7bstoZ-u3XZ",
 };
 
