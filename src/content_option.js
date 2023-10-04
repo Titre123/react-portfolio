@@ -50,47 +50,47 @@ const worktimeline = [
 const skills = [
   {
     name: "Python",
-    value: 05,
+    value: '05',
   },
   {
     name: "Flask",
-    value: 90,
+    value: '90',
   },
   {
     name: "Javascript",
-    value: 75,
+    value: '75',
   },
   {
     name: "React",
-    value: 90,
+    value: '90',
   },
   {
     name: "Jquery",
-    value: 75,
+    value: '75',
   },
   {
     name: "Typescipt",
-    value: 90,
+    value: '90',
   },
   {
     name: "Bash",
-    value: 85,
+    value: '85',
   },
   {
     name: "C",
-    value: 65,
+    value: '65',
   },
   {
     name: "Node JS",
-    value: 90,
+    value: '90',
   },
   {
     name: "React Native",
-    value: 65,
+    value: '65',
   },
   {
     name: "Express",
-    value: 90,
+    value: '90',
   },
 ];
 
@@ -117,7 +117,7 @@ const dataportfolio = [
   {
     img: moil,
     description:
-      "An job posting and resume builder application built for moil Company, Texas. The aplication allows blue collar workers to use AI to builf their resume and allow recruiter to use AI to build their business profile. Recruiter are alos able to manage their network of employees on the application. Blue collar workers can now apply for job using the fine tuned resume built by Moil",
+      "An job posting and resume builder application built for moil Company, Texas.",
     link: "https://moilapp.com",
   },
   {
