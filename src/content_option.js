@@ -42,7 +42,7 @@ const worktimeline = [
   },
   {
     jobtitle: "FrontEnd Engineer",
-    where: "Kreatif Mxnds",
+    where: "Moil, Texas",
     date: "06/2023 - Date",
   },
 ];
